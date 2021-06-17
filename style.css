@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Header Section  */
+
+.header_bg {
+    background: url(images/header-bg.jpg) center center no-repeat;
+}
+
+.navbar ul {
+    margin-left: auto;
+}
+
+.navbar ul li a {
+    color: #3d2514;
+    font-size: 22px;
+}
+
+.logo {
+    max-width: 274px;
+}
+
+.header_info {
+    padding-top: 140px;
+    padding-bottom: 290px;
+}
+
+.header_info p {
+    border-style: dashed;
+    width: 500px;
+    font-size: 18px;
+    padding: 10px 0 10px 15px;
+    color: #3d2514;
+}
+
+.header_info h1 {
+    font-family: 'Changa', sans-serif;
+    font-size: 136px;
+    font-weight: 800;
+    line-height: .6;
+    padding-top: 35px;
+    color: #3d2514;
+    text-shadow: 4px 8px 12px #fff;
+}
+
+.header_info span {
+    font-size: 80px;
+}
+
+/* End Header Section  */
+
+/* Try it section  */
+
+.try_it {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.try_item {
+    background: url(images/burger-1.jpg) center no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.try_item h3 {
+   font-size: 28px; 
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.try_item h2 {
+    color: #fff;
+    padding-left: 30px;
+    padding-bottom: 325px;
+    font-weight: 600;
+}
+
+.try_item-2 {
+    background: url(images/burger-2.jpg) center no-repeat;
+    background-size: cover;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+.try_item-2 h3 {
+    font-size: 28px; 
+     color: #fff;
+     padding-top: 35px;
+     padding-left: 30px;
+}
+
+.try_item-2 h2 {
+    color: #fff;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    font-weight: 600;
+}
+
+.try_item-3 {
+    background: url(images/burger-3.jpg) center center no-repeat;
+    background-size: cover; 
+    margin-left: 35PX;
+}
+
+.try_item-3 h3 {
+    font-size: 28px; 
+     color: #fff;
+     padding-top: 35px;
+     padding-left: 30px;
+}
+
+.try_item-3 h2 {
+    color: #fff;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    font-weight: 600;
+}
+
+
+/* End Try it section  */
+
+/* Choose and Enjoy Section   */
+
+.enjoy {
+    padding-top: 60px;
+}
+
+.enjoy h6 {
+    font-size: 26px;
+    color: #3d2514;
+    background-color: #ffc045;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.enjoy h1 {
+    font-size: 80px;
+    font-family: 'Changa', sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    color: #3d2514;
+}
+
+.enjoy p {
+    font-size: 18px;
+    color: #3d2514;
+}
+
+.order {
+    padding-top: 65px;
+    padding-bottom: 120px;
+}
+
+/* .order_item {
+    max-width: 400px;
+} */
+
+.order_item img {
+    padding-bottom: 70px;
+    margin-bottom: 0;   
+}
+
+.order_item h2 {
+    font-weight: 500;
+    color: #3d2514;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.order_item p {
+    color: #8b7c72;
+}
+
+.order_item button {
+    background: #bf2222;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 15px 35px;
+    transition: .3s ease;
+}
+
+.order_item button:hover {
+    color: #3d2514;
+}
+
+.order_info {
+    padding-top: 35px;
+}
+
+.order_info h2{
+    font-weight: 500;
+    color: #3d2514;
+    padding-bottom: 15px;
+}
+
+.order_info p {
+    color: #8b7c72;
+    padding-bottom: ;
+}
+
+/* End Choose and Enjoy Section   */
+
+
+/* event section  */
+
+.events {
+    margin-bottom: 30px;
+    -webkit-box-shadow: 11px 11px 15px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow: 11px 11px 15px 0px rgba(50, 50, 50, 0.3);
+    box-shadow: 11px 11px 15px 0px rgba(50, 50, 50, 0.3);
+}
+
+.events_info {
+    padding-top: 60px;
+    padding-left: 55px;
+}
+
+.events_info h4 {
+    font-weight: 600;
+    color: #3d3d3d;
+
+}
+
+.events_info h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Changa', sans-serif;
+    color: #3d2514;
+}
+
+.events_info p {
+    color: #b1b1b1;
+}
+
+.carousel-inner {
+    padding-bottom: 10px;
+}
+
+/* end event section  */
+
+
+/* reservation section  */
+
+.reservation_bg {
+    background: url(images/reservation.jpg) center center no-repeat;
+}
+
+.reservation {
+    max-width: 790px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 170px;
+}
+
+.reservation h4 {
+    font-weight: 600;
+    color: #3d2514;
+    padding-bottom: 15px;
+}
+
+.reservation h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Changa', sans-serif;
+}
+
+.input {
+    padding-top: 80px;
+}
+
+.input_left input {
+    margin-bottom: 25px;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 15px 0 15px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #bdbdbd;
+}
+
+.input_right input {
+    margin-bottom: 25px;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 15px 0 15px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #bdbdbd;
+}
+
+.input_right button {
+    background: #bf2222;
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    padding: 15px 80px;
+    transition: .3s ease;
+}
+
+.input_right button:hover {
+    color: #3d2514;
+}
+
+/* end reservation section  */
+
+
+/* footer section */
+
+.footer {
+    background: url(images/footer-bg.jpg) center center no-repeat;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.footer_info {
+    padding-top: 20px;
+}
+
+.footer_info a img {
+    max-width: 274px;
+}
+
+.footer_info h6 {
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 86px;
+}
+
+.footer_info p {
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 150px;
+}
+
+.footer_contact {
+    padding-top: 165px;
+}
+
+.contact_info {
+    color: #fff;
+    display: flex;    
+}
+
+.contact_info p {
+    padding-left: 24px;
+}
+
+
+/* end footer section */
